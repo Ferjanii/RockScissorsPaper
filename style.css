@@ -1,0 +1,26 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.image:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.footer-section{
+    text-align: center;
+    margin-top: 40px;
+    color: #ababab;
+    font-size: 12px;
+  }
+  .footer-section p{
+    text-decoration: none;
+    color: #3d83df;
+  }
